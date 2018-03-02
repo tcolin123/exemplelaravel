@@ -1,0 +1,79 @@
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    list-style: none;
+    background-color: powderblue;
+}
+
+li {
+    margin: 25px;
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 40%;
+    
+}
+
+li:hover {
+    background-color: white;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/bibli2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-base {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: 1px solid black;
+    background-color: lightslategray;
+}
+ main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+ }
+
+ .formulaire {
+     display: flex;
+     
+ }
+
+ th {
+     padding: 20px;
+     border: 1px solid black;
+     background-color: dimgrey;
+     }
+
+ td {
+     padding: 20px;
+     border: 1px dashed black;
+     background-color: lightslategray;
+ }
+
+ #ajout {
+    border: 1px solid black;
+    background-color: dimgrey;
+    padding: 10px;
+ }
